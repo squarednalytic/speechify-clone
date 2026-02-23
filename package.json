@@ -1,0 +1,23 @@
+{
+  "name": "speechify-clone",
+  "version": "1.0.0",
+  "description": "Text to Speech Chrome Extension",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo 'Building extension...'",
+    "watch": "echo 'Watching for changes...'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "text-to-speech",
+    "tts"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-types": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.254"
+  }
+}

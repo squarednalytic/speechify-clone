@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Text to Speech Reader</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Text to Speech Reader</h2>
+    
+    <div class="controls">
+      <button id="playBtn" class="btn btn-primary">▶ Play</button>
+      <button id="pauseBtn" class="btn">⏸ Pause</button>
+      <button id="stopBtn" class="btn">⏹ Stop</button>
+    </div>
+    
+    <div class="settings">
+      <h3>Settings</h3>
+      
+      <div class="setting-group">
+        <label for="voiceSelect">Voice:</label>
+        <select id="voiceSelect"></select>
+      </div>
+      
+      <div class="setting-group">
+        <label for="rateRange">Speed: <span id="rateValue">1.0x</span></label>
+        <input type="range" id="rateRange" min="0.5" max="2.0" step="0.1" value="1.0">
+      </div>
+      
+      <div class="setting-group">
+        <label for="pitchRange">Pitch: <span id="pitchValue">1.0</span></label>
+        <input type="range" id="pitchRange" min="0.5" max="2.0" step="0.1" value="1.0">
+      </div>
+    </div>
+    
+    <div class="text-input">
+      <h3>Custom Text</h3>
+      <textarea id="customText" placeholder="Enter text to read..."></textarea>
+      <button id="readCustomBtn" class="btn btn-primary">Read Text</button>
+    </div>
+    
+    <div class="status">
+      <p id="statusText">Ready</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
