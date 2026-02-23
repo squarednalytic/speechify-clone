@@ -6,7 +6,7 @@ Cara Install
 Metode 1: Install Manual (Developer Mode)
 
 # 1. Download atau clone repository
-git clone https://github.com/yourusername/text-to-speech-reader.git
+git clone https://github.com/yourusername/speechify-clone.git
 
 # 2. Buka Chrome dan ketik:
 chrome://extensions/
